@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aaYX0Kqn8d1oDmV0u8I3rAUxO8G/aHHZIX+WZ2c/pletMxStY6usUif8UqugDurPAizeeEXl5cTQasZJXz1kKw==",
+  "dgSpecHash": "Xap8Up2l6poutC1LR5/Va8d8P1MWOwQiNu7yZAhaI7I6lb9/iN5DC82jFPz7nK8r63YPThGPrAbzSGcfYlNbsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yami\\Desktop\\x\\Prog\\MenuApi\\MenuApi.csproj",
+  "projectFilePath": "C:\\Users\\Yami\\Desktop\\x\\Prog\\RestaurantApi\\MenuApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yami\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Yami\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
