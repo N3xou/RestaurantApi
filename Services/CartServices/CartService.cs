@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace MenuApi.Services.CartServices
 {
@@ -11,22 +12,20 @@ namespace MenuApi.Services.CartServices
 		}
 
 		// adds the cart to the Orders database
-		public async Task<List<OrderModel>> Order(OrderModel cart)
+		public async Task<bool> Order(OrderModel cart)
 		{
 			_context.Orders.Add(cart);
 			await _context.SaveChangesAsync();
-			return await _context.Orders.ToListAsync();
+			return true;
 		}
 		// deletes a product from users cart, 
 		public void RemoveProduct(OrderModel cart, ProductModel product)
 		{
 			cart.Products.Remove(product);
-			return;
 		}
 		public void AddToCart(OrderModel cart, ProductModel product)
 		{
 			cart.Products.Add(product);
-			return;
 		}
 	}
 }

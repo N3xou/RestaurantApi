@@ -2,6 +2,7 @@
 {
 	public class OrderModel
 	{
+		public int Id { get; set; }
 		private List<ProductModel> products = new List<ProductModel>();
 
 		public List<ProductModel> Products
