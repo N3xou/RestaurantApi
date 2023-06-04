@@ -9,8 +9,8 @@ namespace MenuApi.Services.MenuServices
 {
 	public class MenuService : IMenuService
 	{
-		private readonly MenuDbContext _context;
-		public MenuService(MenuDbContext context)
+		private readonly RestaurantDbContext _context;
+		public MenuService(RestaurantDbContext context)
 		{
 			_context = context;
 		}

@@ -26,18 +26,18 @@ namespace MenuApi.Controllers
             }
         }
 
-		[HttpDelete("remove-product")]
-		public IActionResult RemoveProduct(OrderModel cart, ProductModel product)
-		{
-			_cartService.RemoveProduct(cart, product);
-			return NoContent();
-		}
+		//[HttpDelete("remove-product")]
+		//public IActionResult RemoveProduct(OrderModel cart, ProductModel product)
+		//{
+		//	_cartService.RemoveProduct(cart, product);
+		//	return NoContent();
+		//}
 
-		[HttpPost("add-to-cart")]
-		public IActionResult AddToCart(OrderModel cart, ProductModel product)
-		{
-			_cartService.AddToCart(cart, product);
-			return NoContent();
-		}
+		//[HttpPost("add-to-cart")]
+		//public IActionResult AddToCart(OrderModel cart, ProductModel product)
+		//{
+		//	_cartService.AddToCart(cart, product);
+		//	return NoContent();
+		//}
 	}
 }

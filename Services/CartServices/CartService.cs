@@ -5,8 +5,8 @@ namespace MenuApi.Services.CartServices
 {
 	public class CartService
 	{
-		private readonly OrdersDbContext _context;
-		public CartService(OrdersDbContext context)
+		private readonly RestaurantDbContext _context;
+		public CartService(RestaurantDbContext context)
 		{
 			_context = context;
 		}
@@ -19,13 +19,13 @@ namespace MenuApi.Services.CartServices
 			return true;
 		}
 		// deletes a product from users cart, 
-		public void RemoveProduct(OrderModel cart, ProductModel product)
-		{
-			cart.Products.Remove(product);
-		}
-		public void AddToCart(OrderModel cart, ProductModel product)
-		{
-			cart.Products.Add(product);
-		}
+		//public void RemoveProduct(OrderModel cart, ProductModel product)
+		//{
+		//	cart.Products.Remove(product);
+		//}
+		//public void AddToCart(OrderModel cart, ProductModel product)
+		//{
+		//	cart.Products.Add(product);
+		//}
 	}
 }
