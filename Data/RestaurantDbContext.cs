@@ -10,7 +10,6 @@ namespace MenuApi.Data
         }
 
         public DbSet<OrderModel> Orders { get; set; }
-        public DbSet<OrderItemModel> OrderItems { get; set; }
         public DbSet<ProductModel> Menu { get; set; }
 
     }
