@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MenuApi.Models;
+using Restaurant.Models;
 
-namespace MenuApi.Data
+namespace Restaurant.Data
 {
     public class RestaurantDbContext : DbContext
     {

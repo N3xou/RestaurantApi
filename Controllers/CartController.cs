@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MenuApi.Services.CartServices;
+using Restaurant.Services.CartServices;
 
-namespace MenuApi.Controllers
+namespace Restaurant.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

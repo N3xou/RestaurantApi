@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MenuApi.Services;
+using Restaurant.Services;
 using Microsoft.EntityFrameworkCore;
 
-namespace MenuApi.Services.MenuServices
+namespace Restaurant.Services.MenuServices
 {
 	public class MenuService : IMenuService
 	{

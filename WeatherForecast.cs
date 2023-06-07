@@ -1,4 +1,4 @@
-namespace MenuApi;
+namespace Restaurant;
 
 public class WeatherForecast
 {

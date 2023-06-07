@@ -1,6 +1,6 @@
-global using MenuApi.Models;
-global using MenuApi.Data;
-global using MenuApi.Services.MenuServices;
+global using Restaurant.Models;
+global using Restaurant.Data;
+global using Restaurant.Services.MenuServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.OpenApi.Models;

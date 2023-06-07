@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MenuApi.Services;
+using Restaurant.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
-namespace MenuApi.Controllers
+namespace Restaurant.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MenuApi.Services.CartServices
+namespace Restaurant.Services.CartServices
 {
 	public interface ICartService
 	{

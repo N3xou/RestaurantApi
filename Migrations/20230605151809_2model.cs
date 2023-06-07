@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace MenuApi.Migrations
+namespace Restaurant.Migrations
 {
     /// <inheritdoc />
     public partial class _2model : Migration

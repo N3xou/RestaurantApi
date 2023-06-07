@@ -1,4 +1,4 @@
-﻿namespace MenuApi.Models
+﻿namespace Restaurant.Models
 {
     public class OrderModel
     {

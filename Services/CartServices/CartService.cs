@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace MenuApi.Services.CartServices
+namespace Restaurant.Services.CartServices
 {
 	public class CartService
 	{

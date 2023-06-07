@@ -1,4 +1,4 @@
-﻿namespace MenuApi.Services.MenuServices
+﻿namespace Restaurant.Services.MenuServices
 {
 	public interface IMenuService
 	{

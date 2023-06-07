@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MenuApi.Migrations
+namespace Restaurant.Migrations
 {
     /// <inheritdoc />
     public partial class t : Migration
